@@ -231,6 +231,7 @@ a {
 	position: absolute;
 	background-color:rgba(14, 134, 178, 0.8);
 	background-color: #ffbf02;
+	background-color: #6ed097;
 	/* background-color: rgb(251, 255, 233); */
 	/* color: #161736!important; */
 	width: 225%;
@@ -322,12 +323,13 @@ a {
 .aside {
 	width: 250px;
 	border-left: 1px solid #DFE5F1;
-	padding: 16px;
+	padding: 16px 6px;
 	padding-top: 64px;
 }
 
 .aside .languages {
 	margin: 32px 0px;
+	padding-left: 6px;
 }
 
 .languages h3 {
@@ -337,6 +339,10 @@ a {
 .languages .language {
 	display: block;
 	padding: 6px 0;
+}
+
+.aside .contact {
+	padding-left: 6px;
 }
 
 .contact h3 {
@@ -365,4 +371,13 @@ a {
 .subtitle {
 	color:#A5B4CB;
 	font-size: 13px;
+}
+
+.about {
+	margin-top: 100px;
+	background-color: rgba(1, 119, 251, 1);;
+	color: white;
+	border-radius: 20px;
+	padding: 16px 8px;
+	font-size: 15px;
 }
