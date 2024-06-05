@@ -78,20 +78,21 @@ a {
 }
 
 .nav .profile {
-	padding: 10px 30px;
+	padding: 16px 16px;
+	margin-top: 32px;
     display: flex;
 	flex-direction: column;
 }
 
 .profile .name {
 	font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
     height: 20px;
 }
 
 .profile .job {
 	color: #A5B4CB;
-    margin-top: 5px;
+    margin-top: 10px;
     font-size: 16px;
 }
 
@@ -211,7 +212,8 @@ a {
 	top: 0%;
 	height: calc(100% - 16px);
     margin: 8px 0px;
-	color:white
+	color:white;
+	/* background-color: rgba(1, 119, 251, 1); */
 }
 
 .campus-19 {
@@ -240,7 +242,8 @@ a {
 	top: 0%;
 	height: calc(100% - 16px);
     margin: 8px 0px;
-	color:white
+	color:white;
+	/* background-color: #FE6470; */
 }
 
 .caramel {
@@ -337,9 +340,41 @@ a {
 }
 
 .languages .language {
-	display: block;
+	display: flex;
 	padding: 6px 0;
+	justify-content: flex-start;
+	align-items: center;
 }
+
+.language .c2 {
+	background-color: #ae32ca;
+	border-radius: 8px;
+	padding: 8px;
+	color: white;
+}
+
+.language .b1 {
+	background-color: #ffbf02;
+	border-radius: 8px;
+	padding: 8px;
+	color: white;
+}
+
+.language .data {
+	display: flex;
+	flex-direction: column;
+	margin-left: 16px;
+}
+
+.data .country {
+}
+
+.data .level {
+	color:#A5B4CB;
+	font-size: 13px;
+}
+
+
 
 .aside .contact {
 	padding-left: 6px;
@@ -380,4 +415,16 @@ a {
 	border-radius: 20px;
 	padding: 16px 8px;
 	font-size: 15px;
+}
+
+.made {
+	margin-top: 320px;
+	margin-left: 16px;
+	display: flex;
+	align-items: center;
+}
+
+.made .icon {
+	width: 26px;
+	margin: 0 4px;
 }
